@@ -7,7 +7,10 @@
 		{
 			"Name": "AI_FromScratch_01",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule"
+			]
 		}
 	]
 }
